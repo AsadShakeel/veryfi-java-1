@@ -1,10 +1,8 @@
-https://veryfi.github.io/veryfi-java/
-
-![Veryfi Logo](https://cdn.veryfi.com/logos/veryfi-logo-wide-github.png)
+<img src="https://user-images.githubusercontent.com/30125790/212157461-58bdc714-2f89-44c2-8e4d-d42bee74854e.png#gh-dark-mode-only" width="200">
+<img src="https://user-images.githubusercontent.com/30125790/212157486-bfd08c5d-9337-4b78-be6f-230dc63838ba.png#gh-light-mode-only" width="200">
 
 [![Java - version](https://img.shields.io/badge/OpenJDK-16-red)](https://openjdk.java.net/projects/jdk/16/)
 [![Coverage](.github/badges/jacoco.svg)](https://github.com/veryfi/veryfi-java/actions/workflows/maven.yml)
-[![Java CI with Maven](https://github.com/veryfi/veryfi-java/actions/workflows/maven.yml/badge.svg)](https://github.com/veryfi/veryfi-java/actions/workflows/maven.yml)
 [![Publish package to the Maven Central Repository and GitHub Packages](https://github.com/veryfi/veryfi-java/actions/workflows/maven-publish.yml/badge.svg)](https://github.com/veryfi/veryfi-java/actions/workflows/maven-publish.yml)
 
 **veryfi** is a Java module for communicating with the [Veryfi OCR API](https://veryfi.com/api/)
@@ -20,7 +18,7 @@ Install the package from Maven:
  <dependency>
      <groupId>com.veryfi</groupId>
      <artifactId>veryfi-java</artifactId>
-     <version>1.0.5</version>
+     <version>1.0.8</version>
  </dependency>
 ```
 You may need to run the above commands with `sudo`.

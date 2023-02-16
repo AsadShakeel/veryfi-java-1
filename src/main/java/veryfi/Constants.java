@@ -7,6 +7,9 @@ import java.util.List;
  * header constants for HttpRequests.
  */
 public final class Constants {
+    private Constants() {
+        // private constructor
+    }
     /**
      * header for HttpRequest
      */
@@ -18,7 +21,7 @@ public final class Constants {
     /**
      * header for HttpRequest
      */
-    public static final String USER_AGENT_JAVA = "Java Veryfi-Java/1.0.5";
+    public static final String USER_AGENT_JAVA = "Java Veryfi-Java/1.0.8";
     /**
      * header for HttpRequest
      */
